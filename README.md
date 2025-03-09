@@ -82,17 +82,6 @@ Navigate into the project folder:
 ```sh
  cd TaskEase
 ```
-
-#### 🔹 Backend Setup (Spring Boot)
-##### 2️⃣ Configure MySQL Database
-Open MySQL Workbench and create a database named `taskease`.
-Update `application.properties` in the Spring Boot project with your database credentials:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/taskease
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-```
 ##### 3️⃣ Run the Spring Boot Application
 Navigate to the backend folder:
 ```sh
